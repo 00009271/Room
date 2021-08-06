@@ -1,0 +1,89 @@
+*, a{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.hover-black{
+    transition: 100ms;
+}
+.hover-black:hover{
+    color: black;
+    text-decoration: underline;
+    font-weight: 700;
+}
+ul{
+    padding: 0;
+}
+.cImg{
+    width: 100%;
+    height: 95vh;
+}
+.rate-wrapper{
+    height: 90vh;
+}
+.rates{
+    background-image: url(images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+}
+.cheked{
+    color: #dfb82e;
+    margin: 5px;
+}
+.img-size{
+    width: 100%;
+}
+.lgray-back{
+    background-color: #F2F2F2;
+}
+.font-light{
+    color: #aaa;
+}
+.font-white{
+    color: white;
+}
+.font-black{
+    color: black;
+}
+.contacting{
+    font-size: 0.8rem;
+    margin: 5px 0;
+}
+/* toggling */
+.coll-header, .coll-header1, .coll-header2{
+  
+  cursor: pointer;
+
+}
+.coll-content, .coll-content1, .coll-content2 {
+  opacity: 0;
+  visibility: hidden;
+  max-height: 0px;
+  transition-property: max-height;
+  transition: 300ms ;
+}
+.hide{
+opacity:1;
+visibility: visible;
+max-height: 500px;
+}
+
+
+@media(min-width: 768px)  {
+  .size{
+      width: 50%;
+  }
+  .companies-rate{
+      width: 30%;
+  }
+  .img-size{
+    width: 55%;
+    }
+    
+
+}
